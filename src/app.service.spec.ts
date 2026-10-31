@@ -9,7 +9,7 @@ describe('AppService', () => {
   });
 
   it('returns a greeting', () => {
-    expect(service.getHello()).toBe('Hello from CI/CD!');
+    expect(service.getHello()).toBe('Hello, World!');
   });
 
   it('reports the version from the environment', () => {
